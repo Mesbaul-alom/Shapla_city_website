@@ -1,0 +1,124 @@
+.service-wrapper .service-footer {
+	max-width: 720px;
+  }
+  .service-work.card {
+	border-radius: 10px !important;
+	cursor: pointer;
+  }
+  .service-work .service-work-vertical {
+	  background: rgb(0,0,0);
+	background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 33.33%, rgb(255, 255, 255) 66.66%, rgba(255,255,255,0) 99.99%);
+	background-size: 300% 300%;
+	background-position: 0% 100%;
+	transition: .5s;
+  }
+  .service-work .service-work-vertical:hover {
+	background-position: 0% 0%;
+	transition: .5s;
+  }
+  .service-work .service-work-vertical:hover * {
+	color: #000;
+	border-color: #000;
+	transition: .5s;
+  }
+
+  .btn-outline-success.active{
+	  background-color: #51e42c;
+	  border-color:  #51e42c;
+  }
+  .btn-outline-color{
+	background-color: #51e42c;
+	border-color:  #51e42c;
+
+  }
+
+
+
+
+
+
+  
+
+
+
+  
+.testimonial-section{
+    background-color: #ffffff;
+    padding: 10px 0;
+    /* min-height: 100vh; */
+}
+.testi-img .img-box{
+    max-width: 360px;
+    /* margin:auto; */
+    text-align: center;
+    position: relative;
+}
+.testi-img .circle{
+    height: 360px;
+    width: 360px;
+    background-color: #fb9c9a;
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    bottom: 0;
+    transition: all 0.5s ease;
+}
+.testi-img .img-box-inner{
+    position: relative;
+    border-radius: 0 0 180px 180px;
+    overflow:hidden;
+}
+.testi-img .img-box-inner img{
+    max-width: 310px;
+}
+.testimonial-section .carousel-inner{
+    margin-bottom: 20px;
+}
+.testimonial-section .carousel-control-prev{
+    margin-right: 10px;
+}
+.testimonial-section .carousel-control-next, 
+.testimonial-section .carousel-control-prev{
+    position: relative;
+    height: 35px;
+    width: 35px;
+    background-color: #fb9c9a;   
+    display: inline-flex;
+    border-radius: 50%;
+}
+.testimonial-section .carousel-control-prev img,
+.testimonial-section .carousel-control-next img{
+    width: 15px;
+}
+.testi-item h3,
+.testi-item p{
+    font-size: 18px;
+}
+.testi-item h3{
+    text-transform: capitalize;
+}
+
+/* Responsive */
+@media(max-width:991px){
+    .testi-img .img-box{
+        max-width: 300px;
+    }
+    .testi-img .circle{
+        height: 300px;
+        width: 300px;
+    }
+    .testi-img .img-box-inner{
+        border-radius: 0 0 150px 150px;
+    }
+    .testi-img .img-box-inner img{
+        max-width: 230px;
+    }
+}
+@media(max-width:767px){
+    .testi-img{
+        margin-bottom: 25px;
+    }
+}
+
+
+
